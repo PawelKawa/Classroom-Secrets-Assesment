@@ -1,0 +1,21 @@
+html{
+    font-size: 30px;
+}
+
+body{
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+}
+td{
+    border: 1px solid black;
+}
+.options{
+    margin-bottom: 2rem;
+}
+textarea{
+    font-size: 1rem
+}
+.inputs{
+    margin-bottom: 1rem;
+}

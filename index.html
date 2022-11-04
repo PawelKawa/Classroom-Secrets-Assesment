@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="options">
+            <p>Numbers separated by:</p>
+            <div class="radio-option">
+                <input type="radio" value="coma-space" name="option" id="space" >
+                <label for="space">coma then space</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" value="space" name="option" id="space" checked>
+                <label for="space">space</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" value="coma" name="option" id="coma">
+                <label for="coma">coma</label>
+            </div>
+        </div>
+      <div class="inputs">
+        <form action="" id="form">
+            <textarea name="" id="input" cols="30" rows="2"></textarea>
+            <button type="submit" id="sendBtn">Send</button>
+        </form>
+      </div>
+
+         <table>
+             <th>
+                 <tr>
+                     <td>Numbers inputed</td>
+                     <td>Mean</td>
+                     <td>Median</td>
+                     <td>Mode</td>
+                 </tr>
+             </th>
+             <tbody id="mainTable">
+     
+             </tbody>
+     
+         </table>
+    </div>
+    <script src="./javaScript.js"></script>
+</body>
+</html>
